@@ -55,6 +55,20 @@
 			<artifactId>selenium-java</artifactId>
 		</dependency>
 		<!-- Selenium - end -->
+		<!-- Web driver manager - start -->
+		<dependency>
+			<groupId>io.github.bonigarcia</groupId>
+			<artifactId>webdrivermanager</artifactId>
+			<version>4.2.2</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>io.github.bonigarcia</groupId>
+			<artifactId>selenium-jupiter</artifactId>
+			<version>3.3.5</version>
+			<scope>test</scope>
+		</dependency>
+		<!-- Web driver manager - end -->
 	</dependencies>
 
 	<build>
