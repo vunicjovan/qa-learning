@@ -12,9 +12,12 @@ import org.openqa.selenium.opera.OperaDriver;
 import org.openqa.selenium.support.PageFactory;
 
 import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.PrintStream;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.concurrent.TimeUnit;
+import java.util.stream.Stream;
 
 public class PageObject {
 
@@ -61,24 +64,45 @@ public class PageObject {
      * @param exceptionName
      * @throws Exception
      */
-    public static void screenshot(WebDriver driver, String exceptionName) throws Exception{
+    public static void screenshot(WebDriver driver, String exceptionName, Exception e) throws Exception {
         //Convert web driver object to TakeScreenshot
         TakesScreenshot screenshotTaker = (TakesScreenshot) driver;
         //Call getScreenshotAs method to create image file
         File sourceFile = screenshotTaker.getScreenshotAs(OutputType.FILE);
         //Move image file to new destination
-        File destinationFile = new File(generateScreenshotName(exceptionName));
+        String path = generateScreenshotName(exceptionName);
+        File destinationFile = new File(path + ".png");
         //Copy file at destination
         FileUtils.copyFile(sourceFile, destinationFile);
+        // Compile error report
+        compileErrorReport(path + ".txt", e);
     }
 
     public static String generateScreenshotName(String exceptionName) {
         StringBuilder builder = new StringBuilder(SCREENSHOT_PATH);
-        builder.append(exceptionName)
+        builder.append(dateTimeFormatter.format(LocalDateTime.now()) + "/")
+                .append(exceptionName)
                 .append("-")
                 .append(dateTimeFormatter.format(LocalDateTime.now()));
 
         return builder.toString();
+    }
+
+    /**
+     * Compile an error report in the same folder as error screenshot and with the same name.
+     * @param title
+     * @param e
+     */
+    public static void compileErrorReport(String title, Exception e) {
+        File file = new File(title);
+        PrintStream ps = null;
+        try {
+            ps = new PrintStream(file);
+            e.printStackTrace(ps);
+            ps.close();
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
     }
 
 }

@@ -63,7 +63,7 @@ public class InventoryPage extends PageObject {
         }
         catch (Exception e) {
             try {
-                screenshot(driver, e.getClass().getSimpleName());
+                screenshot(driver, e.getClass().getSimpleName(), e);
             } catch (Exception exception) {
                 exception.printStackTrace();
             }

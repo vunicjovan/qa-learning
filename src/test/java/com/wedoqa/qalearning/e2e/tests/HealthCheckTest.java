@@ -1,4 +1,4 @@
-package com.wedoqa.qalearning.e2e;
+package com.wedoqa.qalearning.e2e.tests;
 
 import com.wedoqa.qalearning.e2e.generics.BaseTest;
 import com.wedoqa.qalearning.e2e.pages.LoginPage;
@@ -10,6 +10,7 @@ public class HealthCheckTest extends BaseTest {
 
     @Test
     public void testCheckHealth() {
+        System.out.println(driver);
         goToUrl("/");
         LoginPage loginPage = new LoginPage(driver);
 
