@@ -5,6 +5,8 @@ import com.wedoqa.qalearning.e2e.pages.InventoryPage;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class AddToCartTest extends BaseTest {
@@ -16,7 +18,7 @@ public class AddToCartTest extends BaseTest {
 
         assertEquals("$29.99", inventoryPage.getFirstShopItemPrice());
 
-        //inventoryPage.addToCart();
+        inventoryPage.addToCart();
 
         assertTrue(inventoryPage.areCartCounterBadgeAndRemoveButtonDisplayed());
     }

@@ -1,4 +1,4 @@
-package com.wedoqa.qalearning.restapi;
+package com.wedoqa.qalearning.restapi.tests;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
