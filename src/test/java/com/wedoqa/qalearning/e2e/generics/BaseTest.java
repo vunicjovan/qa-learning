@@ -13,6 +13,11 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.opera.OperaDriver;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.core.env.Environment;
+import org.springframework.stereotype.Component;
 
 import java.io.File;
 import java.lang.reflect.InvocationTargetException;
@@ -24,7 +29,7 @@ public class BaseTest {
      * HOME_URL - login page at SwagLabs website
      * driver - web driver used for e2e testing
      */
-    protected  static String HOME_URL = "https://www.saucedemo.com";
+    protected static String HOME_URL = "https://www.saucedemo.com";
     protected static WebDriver driver;
 
     /**
@@ -35,7 +40,7 @@ public class BaseTest {
      */
     @BeforeAll
     public static void setUp() {
-        setUpTheDriver(DriverManagerType.CHROME);
+        setUpTheDriver(DriverManagerType.valueOf("CHROME"));
     }
 
     /**
