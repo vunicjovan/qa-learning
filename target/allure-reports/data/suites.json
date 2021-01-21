@@ -1,0 +1,4193 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "test.java.com.ch.internalapitests.reporting.report.DeleteReportTests",
+    "children" : [ {
+      "name" : "testDeleteReportWithRandomVisualizations",
+      "uid" : "7f02066880f312bd",
+      "parentUid" : "9169c49302353c8800eba24a77a68890",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198087824,
+        "stop" : 1611198110700,
+        "duration" : 22876
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testDeleteReportWithoutVisualization",
+      "uid" : "9cbc0909f0e86136",
+      "parentUid" : "9169c49302353c8800eba24a77a68890",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198102857,
+        "stop" : 1611198103260,
+        "duration" : 403
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testDeleteReportInvalidId",
+      "uid" : "7705b3c31f025970",
+      "parentUid" : "9169c49302353c8800eba24a77a68890",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198110708,
+        "stop" : 1611198110885,
+        "duration" : 177
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9169c49302353c8800eba24a77a68890"
+  }, {
+    "name" : "test.java.com.ch.internalapitests.reporting.report.EditReportTests",
+    "children" : [ {
+      "name" : "testEditReportNameInvalidId",
+      "uid" : "8be8d26e850dbbc7",
+      "parentUid" : "8fcf8df58979a47750a8e8e536eaff4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198087825,
+        "stop" : 1611198100764,
+        "duration" : 12939
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testEditReportNameInTeamWithoutAccess",
+      "uid" : "63b4d99d646c1658",
+      "parentUid" : "8fcf8df58979a47750a8e8e536eaff4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198100841,
+        "stop" : 1611198101112,
+        "duration" : 271
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testEditReportNameEmptyString",
+      "uid" : "3be380729cdb5dc",
+      "parentUid" : "8fcf8df58979a47750a8e8e536eaff4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198101127,
+        "stop" : 1611198101467,
+        "duration" : 340
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testEditReportNameWithoutVisualization",
+      "uid" : "1eecc5a5fdde6e1b",
+      "parentUid" : "8fcf8df58979a47750a8e8e536eaff4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198101470,
+        "stop" : 1611198101801,
+        "duration" : 331
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testEditReportNameTooLongName",
+      "uid" : "94b3f6560f5524dd",
+      "parentUid" : "8fcf8df58979a47750a8e8e536eaff4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198101804,
+        "stop" : 1611198102121,
+        "duration" : 317
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "8fcf8df58979a47750a8e8e536eaff4a"
+  }, {
+    "name" : "test.java.com.ch.internalapitests.reporting.report.PermissionReportTests",
+    "children" : [ {
+      "name" : "testDeleteReportWithoutPermissionsReadUser",
+      "uid" : "626b72a6a1786701",
+      "parentUid" : "91ef8d3a29f5484895c9e93024815651",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198087828,
+        "stop" : 1611198102475,
+        "duration" : 14647
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testDeleteScheduleWithoutPermissionsReadUser",
+      "uid" : "7ab0a12be4834bef",
+      "parentUid" : "91ef8d3a29f5484895c9e93024815651",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198102481,
+        "stop" : 1611198103927,
+        "duration" : 1446
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testEditScheduleWithoutPermissionsReadUser",
+      "uid" : "9299a6f854e634c3",
+      "parentUid" : "91ef8d3a29f5484895c9e93024815651",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198103960,
+        "stop" : 1611198105763,
+        "duration" : 1803
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testCreateScheduleWithoutPermissionsReadUser",
+      "uid" : "dadfd693e52d2faf",
+      "parentUid" : "91ef8d3a29f5484895c9e93024815651",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198105778,
+        "stop" : 1611198107800,
+        "duration" : 2022
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testDeleteSnapshotWithoutPermissionsReadUser",
+      "uid" : "8069ed5cdad1c52c",
+      "parentUid" : "91ef8d3a29f5484895c9e93024815651",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198107803,
+        "stop" : 1611198110130,
+        "duration" : 2327
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testEditReportWithoutPermissionsReadUser",
+      "uid" : "244ef5159b50950c",
+      "parentUid" : "91ef8d3a29f5484895c9e93024815651",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198110133,
+        "stop" : 1611198112151,
+        "duration" : 2018
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "91ef8d3a29f5484895c9e93024815651"
+  }, {
+    "name" : "test.java.com.ch.internalapitests.reporting.visualization.createvisualization.ReportsVisualizationTests",
+    "children" : [ {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_FACEBOOK; vizType: VOLUME]",
+      "uid" : "2a01cf13ecee6891",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198100923,
+        "stop" : 1611198101934,
+        "duration" : 1011
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_FACEBOOK; vizType: SENTIMENT]",
+      "uid" : "38f6ed0e2383470d",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198101940,
+        "stop" : 1611198102550,
+        "duration" : 610
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_FACEBOOK; vizType: GENDER]",
+      "uid" : "5e34e7577ed7f22b",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198102580,
+        "stop" : 1611198103184,
+        "duration" : 604
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_FACEBOOK; vizType: WORDCLOUD]",
+      "uid" : "b941e1a9f87d53ac",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198103188,
+        "stop" : 1611198103693,
+        "duration" : 505
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_FACEBOOK; vizType: GEOGRAPHY]",
+      "uid" : "9ccb0bfee9fafaf9",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198103702,
+        "stop" : 1611198104296,
+        "duration" : 594
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_FACEBOOK; vizType: EMOTION]",
+      "uid" : "cc007f14b77904e8",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198104300,
+        "stop" : 1611198104878,
+        "duration" : 578
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_FACEBOOK; vizType: TOPICWHEEL]",
+      "uid" : "c08c08c9105592d8",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198104892,
+        "stop" : 1611198105569,
+        "duration" : 677
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_FACEBOOK; vizType: CONTENTSOURCES]",
+      "uid" : "cb0fc5d4c4d6f928",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198105576,
+        "stop" : 1611198106154,
+        "duration" : 578
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_TWITTER; vizType: VOLUME]",
+      "uid" : "1ec28e9adf7b846",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198106188,
+        "stop" : 1611198106932,
+        "duration" : 744
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_TWITTER; vizType: RETWEETS]",
+      "uid" : "cae854d5f87ed08",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198106938,
+        "stop" : 1611198107622,
+        "duration" : 684
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_TWITTER; vizType: SENTIMENT]",
+      "uid" : "c7b201830e42fec4",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198107631,
+        "stop" : 1611198108122,
+        "duration" : 491
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_TWITTER; vizType: INFLUENCERS]",
+      "uid" : "261fd790456dd727",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198108125,
+        "stop" : 1611198108595,
+        "duration" : 470
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_TWITTER; vizType: MENTIONS]",
+      "uid" : "908fcebf432ef491",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198108606,
+        "stop" : 1611198109166,
+        "duration" : 560
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_TWITTER; vizType: HASHTAGS]",
+      "uid" : "db450d1dff856efd",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198109171,
+        "stop" : 1611198109653,
+        "duration" : 482
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_TWITTER; vizType: IMPRESSIONS]",
+      "uid" : "5e1f01c0a2aad238",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198109656,
+        "stop" : 1611198110408,
+        "duration" : 752
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_TWITTER; vizType: TIMEOFDAY]",
+      "uid" : "cac2fbe68b60d119",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198110412,
+        "stop" : 1611198111021,
+        "duration" : 609
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_TWITTER; vizType: DAYOFWEEK]",
+      "uid" : "b6d6c118ddd55fbf",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198111024,
+        "stop" : 1611198111514,
+        "duration" : 490
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_TWITTER; vizType: GENDER]",
+      "uid" : "e5b673e21893a819",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198111521,
+        "stop" : 1611198112055,
+        "duration" : 534
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_TWITTER; vizType: AUTHORSANDPOSTS]",
+      "uid" : "9ba97dad53ca8f33",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198112060,
+        "stop" : 1611198112563,
+        "duration" : 503
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_TWITTER; vizType: AGE]",
+      "uid" : "abc74319fd2fda63",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198112566,
+        "stop" : 1611198113079,
+        "duration" : 513
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_TWITTER; vizType: WORDCLOUD]",
+      "uid" : "c99ffba6948a7f67",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198113102,
+        "stop" : 1611198113643,
+        "duration" : 541
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_TWITTER; vizType: GEOGRAPHY]",
+      "uid" : "e8506d354d99adb1",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198113646,
+        "stop" : 1611198114168,
+        "duration" : 522
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_TWITTER; vizType: EMOTION]",
+      "uid" : "fe5a0eba0992a51c",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198114177,
+        "stop" : 1611198114776,
+        "duration" : 599
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_TWITTER; vizType: PROLIFIC]",
+      "uid" : "5a60a0ab5ae77dc2",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198114778,
+        "stop" : 1611198115365,
+        "duration" : 587
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_TWITTER; vizType: CONTENTSOURCES]",
+      "uid" : "4ab059aa19285b9f",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198115377,
+        "stop" : 1611198115905,
+        "duration" : 528
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_BLOGS; vizType: SENTIMENT]",
+      "uid" : "121da51f37de9ed1",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198115919,
+        "stop" : 1611198116410,
+        "duration" : 491
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_BLOGS; vizType: GEOGRAPHY]",
+      "uid" : "fab937325c1024ce",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198116413,
+        "stop" : 1611198117057,
+        "duration" : 644
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_BLOGS; vizType: TOPICWHEEL]",
+      "uid" : "d4f2f9d574d72dc4",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198117068,
+        "stop" : 1611198117603,
+        "duration" : 535
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_BLOGS; vizType: CONTENTSOURCES]",
+      "uid" : "8afc8d8b2f51ccb6",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198117612,
+        "stop" : 1611198118043,
+        "duration" : 431
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_TWITTER; vizType: TOPICWHEEL]",
+      "uid" : "ea6f8fa006146d02",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198117814,
+        "stop" : 1611198118325,
+        "duration" : 511
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_FORUMS; vizType: SENTIMENT]",
+      "uid" : "5ebb0fe9a4edf58b",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198118047,
+        "stop" : 1611198118658,
+        "duration" : 611
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_BLOGS; vizType: VOLUME]",
+      "uid" : "86094f5125813c5e",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198118327,
+        "stop" : 1611198118785,
+        "duration" : 458
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_FORUMS; vizType: AGE]",
+      "uid" : "df829eff04f7ce26",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198118664,
+        "stop" : 1611198119123,
+        "duration" : 459
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_BLOGS; vizType: WORDCLOUD]",
+      "uid" : "63114d45948b3b9c",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198118789,
+        "stop" : 1611198119331,
+        "duration" : 542
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_FORUMS; vizType: GEOGRAPHY]",
+      "uid" : "ce825b56e37b3ea1",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198119126,
+        "stop" : 1611198119633,
+        "duration" : 507
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_BLOGS; vizType: EMOTION]",
+      "uid" : "105b3852b8022384",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198119333,
+        "stop" : 1611198119846,
+        "duration" : 513
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_FORUMS; vizType: TOPICWHEEL]",
+      "uid" : "4120e6583f66d3cf",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198119638,
+        "stop" : 1611198120053,
+        "duration" : 415
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_FORUMS; vizType: VOLUME]",
+      "uid" : "221ac3fe4db9966b",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198119848,
+        "stop" : 1611198120244,
+        "duration" : 396
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_GOOGLEPLUS; vizType: VOLUME]",
+      "uid" : "9cfbb65e556fadd",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198120069,
+        "stop" : 1611198120563,
+        "duration" : 494
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_FORUMS; vizType: GENDER]",
+      "uid" : "cc13e17c4cdef816",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198120249,
+        "stop" : 1611198120652,
+        "duration" : 403
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_GOOGLEPLUS; vizType: WORDCLOUD]",
+      "uid" : "40dc69bec7e53eb2",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198120566,
+        "stop" : 1611198121121,
+        "duration" : 555
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_FORUMS; vizType: WORDCLOUD]",
+      "uid" : "b7a703ea061e2821",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198120655,
+        "stop" : 1611198121170,
+        "duration" : 515
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_FORUMS; vizType: EMOTION]",
+      "uid" : "f2a2f73a117be041",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198120949,
+        "stop" : 1611198121663,
+        "duration" : 714
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_GOOGLEPLUS; vizType: CONTENTSOURCES]",
+      "uid" : "320237b07def9a67",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198121136,
+        "stop" : 1611198121660,
+        "duration" : 524
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_FORUMS; vizType: CONTENTSOURCES]",
+      "uid" : "d3efd1bdf822036a",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198121172,
+        "stop" : 1611198121780,
+        "duration" : 608
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_GOOGLEPLUS; vizType: SENTIMENT]",
+      "uid" : "d4e0e9069d289556",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198121665,
+        "stop" : 1611198122177,
+        "duration" : 512
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_TUMBLR; vizType: WORDCLOUD]",
+      "uid" : "a9a0666df30447c8",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198121672,
+        "stop" : 1611198122078,
+        "duration" : 406
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_GOOGLEPLUS; vizType: EMOTION]",
+      "uid" : "c39e2af78c47c795",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198121781,
+        "stop" : 1611198122400,
+        "duration" : 619
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_TUMBLR; vizType: TOPICWHEEL]",
+      "uid" : "ed697aae4355961b",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198122086,
+        "stop" : 1611198122703,
+        "duration" : 617
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_GOOGLEPLUS; vizType: TOPICWHEEL]",
+      "uid" : "d49589bbb6ecaa47",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198122179,
+        "stop" : 1611198123047,
+        "duration" : 868
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_TUMBLR; vizType: VOLUME]",
+      "uid" : "79e766e0acac924b",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198122402,
+        "stop" : 1611198123104,
+        "duration" : 702
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_INSTAGRAM; vizType: SENTIMENT]",
+      "uid" : "23054fee41680ed3",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198122713,
+        "stop" : 1611198123319,
+        "duration" : 606
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_TUMBLR; vizType: SENTIMENT]",
+      "uid" : "8da616979e90b32e",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198123049,
+        "stop" : 1611198123599,
+        "duration" : 550
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_TUMBLR; vizType: EMOTION]",
+      "uid" : "a6fd4b427c39e363",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198123105,
+        "stop" : 1611198123899,
+        "duration" : 794
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_INSTAGRAM; vizType: GEOGRAPHY]",
+      "uid" : "cbf80de3a6d9c83d",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198123323,
+        "stop" : 1611198123942,
+        "duration" : 619
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_TUMBLR; vizType: CONTENTSOURCES]",
+      "uid" : "1e9e34eaa16dfba4",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198123601,
+        "stop" : 1611198124157,
+        "duration" : 556
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_INSTAGRAM; vizType: VOLUME]",
+      "uid" : "94a1057fcf32e50b",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198123901,
+        "stop" : 1611198124359,
+        "duration" : 458
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_INSTAGRAM; vizType: CONTENTSOURCES]",
+      "uid" : "160cb531bd93ed36",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198123944,
+        "stop" : 1611198124329,
+        "duration" : 385
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_INSTAGRAM; vizType: GENDER]",
+      "uid" : "14acc535700ca74d",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198124159,
+        "stop" : 1611198124582,
+        "duration" : 423
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_YOUTUBE; vizType: SENTIMENT]",
+      "uid" : "b0210b89cffc490b",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198124332,
+        "stop" : 1611198124786,
+        "duration" : 454
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_INSTAGRAM; vizType: WORDCLOUD]",
+      "uid" : "b1c4a25a1ce12b5e",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198124360,
+        "stop" : 1611198125177,
+        "duration" : 817
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_INSTAGRAM; vizType: EMOTION]",
+      "uid" : "ae6c6f1421fbe571",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198124583,
+        "stop" : 1611198125143,
+        "duration" : 560
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_INSTAGRAM; vizType: TOPICWHEEL]",
+      "uid" : "48f4eac19626ffbe",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198124786,
+        "stop" : 1611198126125,
+        "duration" : 1339
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_YOUTUBE; vizType: TOPICWHEEL]",
+      "uid" : "d9c82670d75ec846",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198124795,
+        "stop" : 1611198125586,
+        "duration" : 791
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_YOUTUBE; vizType: VOLUME]",
+      "uid" : "f3bf83b83867bee7",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198125145,
+        "stop" : 1611198125685,
+        "duration" : 540
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_YOUTUBE; vizType: WORDCLOUD]",
+      "uid" : "64a3fe59aae28429",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198125179,
+        "stop" : 1611198125608,
+        "duration" : 429
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_NEWS; vizType: SENTIMENT]",
+      "uid" : "7e93407b7fbe5647",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198125590,
+        "stop" : 1611198126115,
+        "duration" : 525
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_YOUTUBE; vizType: GEOGRAPHY]",
+      "uid" : "e7feabb022ee4bcf",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198125609,
+        "stop" : 1611198126249,
+        "duration" : 640
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_YOUTUBE; vizType: EMOTION]",
+      "uid" : "a5e7105af66f94fb",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198125687,
+        "stop" : 1611198126148,
+        "duration" : 461
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_NEWS; vizType: EMOTION]",
+      "uid" : "7513216696a9aec7",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198126118,
+        "stop" : 1611198126841,
+        "duration" : 723
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_YOUTUBE; vizType: CONTENTSOURCES]",
+      "uid" : "a443158083964563",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198126127,
+        "stop" : 1611198126800,
+        "duration" : 673
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_NEWS; vizType: VOLUME]",
+      "uid" : "30777e3428638b9f",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198126149,
+        "stop" : 1611198126785,
+        "duration" : 636
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_NEWS; vizType: WORDCLOUD]",
+      "uid" : "2e039b418f3ded40",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198126250,
+        "stop" : 1611198126865,
+        "duration" : 615
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_NEWS; vizType: GEOGRAPHY]",
+      "uid" : "3dfee844f90a2b42",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198126789,
+        "stop" : 1611198127281,
+        "duration" : 492
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_NEWS; vizType: TOPICWHEEL]",
+      "uid" : "50eeada5afbfa503",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198126843,
+        "stop" : 1611198127250,
+        "duration" : 407
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_REVIEWS; vizType: AGE]",
+      "uid" : "980ece272027889f",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198126854,
+        "stop" : 1611198127555,
+        "duration" : 701
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_NEWS; vizType: CONTENTSOURCES]",
+      "uid" : "8527e2a72aadcada",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198126866,
+        "stop" : 1611198127503,
+        "duration" : 637
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_REVIEWS; vizType: VOLUME]",
+      "uid" : "86839ae5482af1be",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198127255,
+        "stop" : 1611198127744,
+        "duration" : 489
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_REVIEWS; vizType: SENTIMENT]",
+      "uid" : "40f78529b6e1cf98",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198127283,
+        "stop" : 1611198127715,
+        "duration" : 432
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_REVIEWS; vizType: GENDER]",
+      "uid" : "e3c94e9d8185e1e9",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198127504,
+        "stop" : 1611198128020,
+        "duration" : 516
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_VKKEYWORD; vizType: VOLUME]",
+      "uid" : "356719b9cb33ee8a",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198127558,
+        "stop" : 1611198128067,
+        "duration" : 509
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_REVIEWS; vizType: WORDCLOUD]",
+      "uid" : "b97ef938c3fec114",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198127717,
+        "stop" : 1611198128170,
+        "duration" : 453
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_REVIEWS; vizType: EMOTION]",
+      "uid" : "3a4c9e7a33990ed8",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198127745,
+        "stop" : 1611198128162,
+        "duration" : 417
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_REVIEWS; vizType: TOPICWHEEL]",
+      "uid" : "4863fbc2142149db",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198128028,
+        "stop" : 1611198128510,
+        "duration" : 482
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_VKKEYWORD; vizType: GEOGRAPHY]",
+      "uid" : "f80e4763d94c619d",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198128070,
+        "stop" : 1611198128461,
+        "duration" : 391
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_REVIEWS; vizType: CONTENTSOURCES]",
+      "uid" : "a5218fe1e9d81f68",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198128164,
+        "stop" : 1611198128688,
+        "duration" : 524
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_VKKEYWORD; vizType: SENTIMENT]",
+      "uid" : "144096eccf3c7d57",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198128171,
+        "stop" : 1611198128699,
+        "duration" : 528
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_VKKEYWORD; vizType: CONTENTSOURCES]",
+      "uid" : "311212237ab47d8d",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198128463,
+        "stop" : 1611198129018,
+        "duration" : 555
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_VKKEYWORD; vizType: GENDER]",
+      "uid" : "e61b7cb87a599a2d",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198128517,
+        "stop" : 1611198129043,
+        "duration" : 526
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_VKKEYWORD; vizType: WORDCLOUD]",
+      "uid" : "fc424ce7a58a91d",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198128692,
+        "stop" : 1611198129367,
+        "duration" : 675
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_VKKEYWORD; vizType: EMOTION]",
+      "uid" : "c8e6a1f97d4cc5a0",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198128701,
+        "stop" : 1611198129079,
+        "duration" : 378
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_WEIBO; vizType: WORDCLOUD]",
+      "uid" : "c28d7bbd59c9aa3d",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198129022,
+        "stop" : 1611198129399,
+        "duration" : 377
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_VKKEYWORD; vizType: TOPICWHEEL]",
+      "uid" : "a048bcc165653708",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198129045,
+        "stop" : 1611198129473,
+        "duration" : 428
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_WEIBO; vizType: VOLUME]",
+      "uid" : "320ea8df22737c1c",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198129081,
+        "stop" : 1611198129599,
+        "duration" : 518
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_WEIBO; vizType: SENTIMENT]",
+      "uid" : "ea4d739de042e220",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198129368,
+        "stop" : 1611198129751,
+        "duration" : 383
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_WEIBO; vizType: CONTENTSOURCES]",
+      "uid" : "162abfbeb5c66cff",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198129401,
+        "stop" : 1611198129829,
+        "duration" : 428
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_WEIBO; vizType: GENDER]",
+      "uid" : "802569407ddf5bcb",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198129475,
+        "stop" : 1611198129790,
+        "duration" : 315
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_WEIBO; vizType: GEOGRAPHY]",
+      "uid" : "4a6e29dedc6fabfa",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198129601,
+        "stop" : 1611198130010,
+        "duration" : 409
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_WEIBO; vizType: EMOTION]",
+      "uid" : "adc926b56ed76903",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198129753,
+        "stop" : 1611198130161,
+        "duration" : 408
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_WEIBO; vizType: TOPICWHEEL]",
+      "uid" : "cd5c719f0362f9f5",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198129791,
+        "stop" : 1611198130166,
+        "duration" : 375
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_COMMENTS; vizType: EMOTION]",
+      "uid" : "18fb808b9bfe8e9e",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198129835,
+        "stop" : 1611198130291,
+        "duration" : 456
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_COMMENTS; vizType: VOLUME]",
+      "uid" : "89faca971ba02fa",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198130012,
+        "stop" : 1611198130572,
+        "duration" : 560
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_COMMENTS; vizType: SENTIMENT]",
+      "uid" : "b2d395f1d873bed3",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198130168,
+        "stop" : 1611198131005,
+        "duration" : 837
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_COMMENTS; vizType: WORDCLOUD]",
+      "uid" : "efdfd9c888ec191c",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198130174,
+        "stop" : 1611198131002,
+        "duration" : 828
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_FACEBOOK; vizType: GENDER]",
+      "uid" : "b1a0f1bf30243be2",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198130294,
+        "stop" : 1611198130743,
+        "duration" : 449
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_COMMENTS; vizType: GEOGRAPHY]",
+      "uid" : "314c13c9229dfa65",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198130574,
+        "stop" : 1611198131108,
+        "duration" : 534
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_FACEBOOK; vizType: GEOGRAPHY]",
+      "uid" : "bde77cd40bbfc904",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198130745,
+        "stop" : 1611198131258,
+        "duration" : 513
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_COMMENTS; vizType: TOPICWHEEL]",
+      "uid" : "b4cd134c41785b85",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198131004,
+        "stop" : 1611198131456,
+        "duration" : 452
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BUZZ_COMMENTS; vizType: CONTENTSOURCES]",
+      "uid" : "99120d3279f1c68d",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198131006,
+        "stop" : 1611198131666,
+        "duration" : 660
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_FACEBOOK; vizType: VOLUME]",
+      "uid" : "e0d42c28fcc2638e",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198131109,
+        "stop" : 1611198131687,
+        "duration" : 578
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_TWITTER; vizType: RETWEETS]",
+      "uid" : "c1e5882bcec5f1a0",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198131265,
+        "stop" : 1611198131668,
+        "duration" : 403
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_FACEBOOK; vizType: WORDCLOUD]",
+      "uid" : "31267e510b77009f",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198131457,
+        "stop" : 1611198131766,
+        "duration" : 309
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_FACEBOOK; vizType: TOPICWHEEL]",
+      "uid" : "c080de155a1e0fe0",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198131669,
+        "stop" : 1611198132241,
+        "duration" : 572
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_TWITTER; vizType: HASHTAGS]",
+      "uid" : "517ee6ba894b1dbc",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198131671,
+        "stop" : 1611198132273,
+        "duration" : 602
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_FACEBOOK; vizType: CONTENTSOURCES]",
+      "uid" : "9b776efb2a435b6c",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198131688,
+        "stop" : 1611198132215,
+        "duration" : 527
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_TWITTER; vizType: VOLUME]",
+      "uid" : "66f150baa3c8ae07",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198131772,
+        "stop" : 1611198132245,
+        "duration" : 473
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_TWITTER; vizType: INFLUENCERS]",
+      "uid" : "bcc8801a63ba08f2",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198132217,
+        "stop" : 1611198132792,
+        "duration" : 575
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_TWITTER; vizType: MENTIONS]",
+      "uid" : "2015212e022ec899",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198132242,
+        "stop" : 1611198132798,
+        "duration" : 556
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_TWITTER; vizType: IMPRESSIONS]",
+      "uid" : "b97ca0b0d5ff725f",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198132275,
+        "stop" : 1611198132794,
+        "duration" : 519
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_TWITTER; vizType: WORDCLOUD]",
+      "uid" : "fb8a10dbfe20f0ad",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198132276,
+        "stop" : 1611198132744,
+        "duration" : 468
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_TWITTER; vizType: GEOGRAPHY]",
+      "uid" : "dbec157641225129",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198132746,
+        "stop" : 1611198133258,
+        "duration" : 512
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_TWITTER; vizType: TIMEOFDAY]",
+      "uid" : "303364e957240fc4",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198132794,
+        "stop" : 1611198133302,
+        "duration" : 508
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_TWITTER; vizType: DAYOFWEEK]",
+      "uid" : "b7897d6a7f1b79cd",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198132799,
+        "stop" : 1611198133283,
+        "duration" : 484
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_TWITTER; vizType: GENDER]",
+      "uid" : "67f6dc83076ce4aa",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198132800,
+        "stop" : 1611198133257,
+        "duration" : 457
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_TWITTER; vizType: AGE]",
+      "uid" : "2e774abb52dc12e2",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198133258,
+        "stop" : 1611198133775,
+        "duration" : 517
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_BLOGS; vizType: VOLUME]",
+      "uid" : "32101d9b05330f93",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198133262,
+        "stop" : 1611198133900,
+        "duration" : 638
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_TWITTER; vizType: AUTHORSANDPOSTS]",
+      "uid" : "9ad24aa38773cfe2",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198133284,
+        "stop" : 1611198133760,
+        "duration" : 476
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_TWITTER; vizType: PROLIFIC]",
+      "uid" : "d7d03aa386ee214b",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198133304,
+        "stop" : 1611198133724,
+        "duration" : 420
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_TWITTER; vizType: TOPICWHEEL]",
+      "uid" : "bf4bc79b81d2cbe0",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198133725,
+        "stop" : 1611198134321,
+        "duration" : 596
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_TWITTER; vizType: CONTENTSOURCES]",
+      "uid" : "31cd5e2dcc44801a",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198133761,
+        "stop" : 1611198134345,
+        "duration" : 584
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_BLOGS; vizType: WORDCLOUD]",
+      "uid" : "a1716effa20a543",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198133902,
+        "stop" : 1611198134699,
+        "duration" : 797
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_FORUMS; vizType: GENDER]",
+      "uid" : "c470517deb3d18a4",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198133903,
+        "stop" : 1611198134729,
+        "duration" : 826
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_BLOGS; vizType: GEOGRAPHY]",
+      "uid" : "a35bb89846765ea5",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198134323,
+        "stop" : 1611198135257,
+        "duration" : 934
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_BLOGS; vizType: TOPICWHEEL]",
+      "uid" : "2061410ef125ece4",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198134346,
+        "stop" : 1611198134732,
+        "duration" : 386
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_BLOGS; vizType: CONTENTSOURCES]",
+      "uid" : "49148cb747e2741c",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198134700,
+        "stop" : 1611198135257,
+        "duration" : 557
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_FORUMS; vizType: TOPICWHEEL]",
+      "uid" : "2d91897fb1e3cb27",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198134732,
+        "stop" : 1611198135267,
+        "duration" : 535
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_FORUMS; vizType: VOLUME]",
+      "uid" : "28119d7d152e8342",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198134733,
+        "stop" : 1611198135234,
+        "duration" : 501
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_FORUMS; vizType: AGE]",
+      "uid" : "20465cb297754fe7",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198135236,
+        "stop" : 1611198135685,
+        "duration" : 449
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_FORUMS; vizType: WORDCLOUD]",
+      "uid" : "51b3baf13a539ddf",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198135259,
+        "stop" : 1611198135742,
+        "duration" : 483
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_FORUMS; vizType: GEOGRAPHY]",
+      "uid" : "e8591186fbac41a",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198135259,
+        "stop" : 1611198135808,
+        "duration" : 549
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_GOOGLEPLUS; vizType: CONTENTSOURCES]",
+      "uid" : "cd16e5da6396d30a",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198135270,
+        "stop" : 1611198135807,
+        "duration" : 537
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_FORUMS; vizType: CONTENTSOURCES]",
+      "uid" : "4df0479d70e5b408",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198135686,
+        "stop" : 1611198136378,
+        "duration" : 692
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_GOOGLEPLUS; vizType: VOLUME]",
+      "uid" : "2efc6c26da851c3d",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198135743,
+        "stop" : 1611198136140,
+        "duration" : 397
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_GOOGLEPLUS; vizType: WORDCLOUD]",
+      "uid" : "5a60e4dc12c6da7",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198135809,
+        "stop" : 1611198136139,
+        "duration" : 330
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_TUMBLR; vizType: CONTENTSOURCES]",
+      "uid" : "20cae54dcd3fdbd2",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198135810,
+        "stop" : 1611198136470,
+        "duration" : 660
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_GOOGLEPLUS; vizType: TOPICWHEEL]",
+      "uid" : "d128cb666bfa04fb",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198136140,
+        "stop" : 1611198136933,
+        "duration" : 793
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_TUMBLR; vizType: VOLUME]",
+      "uid" : "5291a5f1e80baeff",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198136141,
+        "stop" : 1611198136825,
+        "duration" : 684
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_TUMBLR; vizType: WORDCLOUD]",
+      "uid" : "133f1ec297047cdb",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198136379,
+        "stop" : 1611198137083,
+        "duration" : 704
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_INSTAGRAM; vizType: GEOGRAPHY]",
+      "uid" : "c9e3b5d2387f1315",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198136473,
+        "stop" : 1611198137217,
+        "duration" : 744
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_TUMBLR; vizType: TOPICWHEEL]",
+      "uid" : "891881dc249d5f02",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198136827,
+        "stop" : 1611198137421,
+        "duration" : 594
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_INSTAGRAM; vizType: VOLUME]",
+      "uid" : "7366d356d82f9376",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198136934,
+        "stop" : 1611198137338,
+        "duration" : 404
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_INSTAGRAM; vizType: GENDER]",
+      "uid" : "710f31b09c8efca1",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198137084,
+        "stop" : 1611198137437,
+        "duration" : 353
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_YOUTUBE; vizType: WORDCLOUD]",
+      "uid" : "e59dbbcef604bb53",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198137220,
+        "stop" : 1611198137586,
+        "duration" : 366
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_INSTAGRAM; vizType: WORDCLOUD]",
+      "uid" : "245a88154357acb9",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198137339,
+        "stop" : 1611198137687,
+        "duration" : 348
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_INSTAGRAM; vizType: TOPICWHEEL]",
+      "uid" : "2c95250ac8445a42",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198137422,
+        "stop" : 1611198137756,
+        "duration" : 334
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_INSTAGRAM; vizType: CONTENTSOURCES]",
+      "uid" : "626d8767d6ca2818",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198137438,
+        "stop" : 1611198137894,
+        "duration" : 456
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_NEWS; vizType: VOLUME]",
+      "uid" : "324769aeecfdbd6c",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198137590,
+        "stop" : 1611198138008,
+        "duration" : 418
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_YOUTUBE; vizType: VOLUME]",
+      "uid" : "4d79a70b562a767b",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198137689,
+        "stop" : 1611198138062,
+        "duration" : 373
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_YOUTUBE; vizType: GEOGRAPHY]",
+      "uid" : "865d19b1d3f5a14e",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198137760,
+        "stop" : 1611198138270,
+        "duration" : 510
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_YOUTUBE; vizType: TOPICWHEEL]",
+      "uid" : "dcb3abbd156b6e23",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198137896,
+        "stop" : 1611198138270,
+        "duration" : 374
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_NEWS; vizType: CONTENTSOURCES]",
+      "uid" : "8e3c7513f80e11ac",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198138010,
+        "stop" : 1611198138566,
+        "duration" : 556
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_YOUTUBE; vizType: CONTENTSOURCES]",
+      "uid" : "9e9e52e087ca47bb",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198138064,
+        "stop" : 1611198138530,
+        "duration" : 466
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_NEWS; vizType: GEOGRAPHY]",
+      "uid" : "34d150c79a2fc744",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198138271,
+        "stop" : 1611198138775,
+        "duration" : 504
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_NEWS; vizType: WORDCLOUD]",
+      "uid" : "99a61ad3bde0e30d",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198138271,
+        "stop" : 1611198138572,
+        "duration" : 301
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_NEWS; vizType: TOPICWHEEL]",
+      "uid" : "49af46b4c9b2ddc6",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198138532,
+        "stop" : 1611198139082,
+        "duration" : 550
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_REVIEWS; vizType: TOPICWHEEL]",
+      "uid" : "58cd26070b06ce2f",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198138569,
+        "stop" : 1611198139168,
+        "duration" : 599
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_REVIEWS; vizType: VOLUME]",
+      "uid" : "46fbd12790acad0e",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198138574,
+        "stop" : 1611198139123,
+        "duration" : 549
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_REVIEWS; vizType: GENDER]",
+      "uid" : "bc2b84a73c1ca51",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198138776,
+        "stop" : 1611198139334,
+        "duration" : 558
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_REVIEWS; vizType: AGE]",
+      "uid" : "b5dd8079df88856c",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198139083,
+        "stop" : 1611198139587,
+        "duration" : 504
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_REVIEWS; vizType: WORDCLOUD]",
+      "uid" : "32db37d4feef6765",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198139124,
+        "stop" : 1611198139488,
+        "duration" : 364
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_VKKEYWORD; vizType: GEOGRAPHY]",
+      "uid" : "4efd5ed054553e0",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198139171,
+        "stop" : 1611198139639,
+        "duration" : 468
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_REVIEWS; vizType: CONTENTSOURCES]",
+      "uid" : "edfcea07bc7ba75c",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198139335,
+        "stop" : 1611198139622,
+        "duration" : 287
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_VKKEYWORD; vizType: VOLUME]",
+      "uid" : "67189a23bb40b8bb",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198139489,
+        "stop" : 1611198140240,
+        "duration" : 751
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_VKKEYWORD; vizType: GENDER]",
+      "uid" : "3ddc2e9260c065ab",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198139588,
+        "stop" : 1611198140027,
+        "duration" : 439
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_VKKEYWORD; vizType: WORDCLOUD]",
+      "uid" : "95555bd82e646778",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198139623,
+        "stop" : 1611198140026,
+        "duration" : 403
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_WEIBO; vizType: WORDCLOUD]",
+      "uid" : "22068d3589564859",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198139642,
+        "stop" : 1611198140210,
+        "duration" : 568
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_VKKEYWORD; vizType: TOPICWHEEL]",
+      "uid" : "cea71563b5df1a5d",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198140027,
+        "stop" : 1611198140628,
+        "duration" : 601
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_VKKEYWORD; vizType: CONTENTSOURCES]",
+      "uid" : "25bb8e04b043b8f3",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198140028,
+        "stop" : 1611198140686,
+        "duration" : 658
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_WEIBO; vizType: CONTENTSOURCES]",
+      "uid" : "98f78059bdf37d0c",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198140211,
+        "stop" : 1611198140688,
+        "duration" : 477
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_WEIBO; vizType: VOLUME]",
+      "uid" : "ca51ff3e155f8130",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198140241,
+        "stop" : 1611198140691,
+        "duration" : 450
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_WEIBO; vizType: GENDER]",
+      "uid" : "b44a2aebe4179f38",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198140630,
+        "stop" : 1611198141058,
+        "duration" : 428
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_WEIBO; vizType: GEOGRAPHY]",
+      "uid" : "2e040d5501a14cbe",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198140687,
+        "stop" : 1611198141166,
+        "duration" : 479
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_WEIBO; vizType: TOPICWHEEL]",
+      "uid" : "b2d6810680e2eb23",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198140692,
+        "stop" : 1611198141165,
+        "duration" : 473
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_COMMENTS; vizType: CONTENTSOURCES]",
+      "uid" : "c3aa2404ab91187a",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198140694,
+        "stop" : 1611198141173,
+        "duration" : 479
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_COMMENTS; vizType: VOLUME]",
+      "uid" : "16e9047fe35146b",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198141060,
+        "stop" : 1611198141585,
+        "duration" : 525
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_COMMENTS; vizType: WORDCLOUD]",
+      "uid" : "80dde55b0673b8c6",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198141166,
+        "stop" : 1611198141640,
+        "duration" : 474
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_COMMENTS; vizType: GEOGRAPHY]",
+      "uid" : "23221dd95b846741",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198141169,
+        "stop" : 1611198141585,
+        "duration" : 416
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_FACEBOOK; vizType: GEOGRAPHY]",
+      "uid" : "35e317f377e18cc5",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198141177,
+        "stop" : 1611198141735,
+        "duration" : 558
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_FACEBOOK; vizType: VOLUME]",
+      "uid" : "87f8b2877f8fe6c4",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198141586,
+        "stop" : 1611198142106,
+        "duration" : 520
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_BASE_COMMENTS; vizType: TOPICWHEEL]",
+      "uid" : "e94120eece148e29",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198141586,
+        "stop" : 1611198141971,
+        "duration" : 385
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_FACEBOOK; vizType: GENDER]",
+      "uid" : "1d3669bc56b94909",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198141641,
+        "stop" : 1611198142103,
+        "duration" : 462
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_TWITTER; vizType: VOLUME]",
+      "uid" : "706607ee82b47af",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198141738,
+        "stop" : 1611198142119,
+        "duration" : 381
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_FACEBOOK; vizType: WORDCLOUD]",
+      "uid" : "853302423b35053b",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198141972,
+        "stop" : 1611198142359,
+        "duration" : 387
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_FACEBOOK; vizType: BRIGHTVIEW]",
+      "uid" : "6535f57be2c74522",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198142104,
+        "stop" : 1611198142488,
+        "duration" : 384
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_FACEBOOK; vizType: TOPICWHEEL]",
+      "uid" : "e1ce43cea3a91f98",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198142108,
+        "stop" : 1611198142495,
+        "duration" : 387
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_TWITTER; vizType: HASHTAGS]",
+      "uid" : "914e037f7f07dc11",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198142121,
+        "stop" : 1611198142548,
+        "duration" : 427
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_FACEBOOK; vizType: CONTENTSOURCES]",
+      "uid" : "28c64a979e83597d",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198142361,
+        "stop" : 1611198142812,
+        "duration" : 451
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_TWITTER; vizType: RETWEETS]",
+      "uid" : "ccf36486b4bf82ff",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198142489,
+        "stop" : 1611198143276,
+        "duration" : 787
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_TWITTER; vizType: INFLUENCERS]",
+      "uid" : "4608f3a723317e7c",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198142496,
+        "stop" : 1611198143063,
+        "duration" : 567
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_TWITTER; vizType: GENDER]",
+      "uid" : "8bf995446f893f89",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198142553,
+        "stop" : 1611198143092,
+        "duration" : 539
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_TWITTER; vizType: MENTIONS]",
+      "uid" : "79ded97739edf0ed",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198142813,
+        "stop" : 1611198143221,
+        "duration" : 408
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_TWITTER; vizType: IMPRESSIONS]",
+      "uid" : "a6c9316ed14b7aba",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198143065,
+        "stop" : 1611198143465,
+        "duration" : 400
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_TWITTER; vizType: GEOGRAPHY]",
+      "uid" : "73aba69b4cf88598",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198143094,
+        "stop" : 1611198143737,
+        "duration" : 643
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_TWITTER; vizType: TIMEOFDAY]",
+      "uid" : "470f7c51e5fe89c4",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198143223,
+        "stop" : 1611198143665,
+        "duration" : 442
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_TWITTER; vizType: DAYOFWEEK]",
+      "uid" : "7cc6fa9390cfa1e9",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198143278,
+        "stop" : 1611198143821,
+        "duration" : 543
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_TWITTER; vizType: AGE]",
+      "uid" : "916078e80526e6e0",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198143467,
+        "stop" : 1611198143830,
+        "duration" : 363
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_TWITTER; vizType: WORDCLOUD]",
+      "uid" : "7148ad66115d605b",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198143666,
+        "stop" : 1611198144050,
+        "duration" : 384
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_TWITTER; vizType: CONTENTSOURCES]",
+      "uid" : "7d2a4ff591c94d61",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198143740,
+        "stop" : 1611198144136,
+        "duration" : 396
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_TWITTER; vizType: AUTHORSANDPOSTS]",
+      "uid" : "9ddda3396fedd76b",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198143823,
+        "stop" : 1611198144264,
+        "duration" : 441
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_TWITTER; vizType: PROLIFIC]",
+      "uid" : "d8710aae9f423d8b",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198143832,
+        "stop" : 1611198144190,
+        "duration" : 358
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_TWITTER; vizType: BRIGHTVIEW]",
+      "uid" : "ef38bea06b6029e0",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198144052,
+        "stop" : 1611198144428,
+        "duration" : 376
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_BLOGS; vizType: BRIGHTVIEW]",
+      "uid" : "ddae6b3afcffbdde",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198144139,
+        "stop" : 1611198144516,
+        "duration" : 377
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_TWITTER; vizType: TOPICWHEEL]",
+      "uid" : "a473be738c55a4c5",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198144191,
+        "stop" : 1611198144835,
+        "duration" : 644
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_BLOGS; vizType: VOLUME]",
+      "uid" : "b45c2dd16e09d7a7",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198144265,
+        "stop" : 1611198144596,
+        "duration" : 331
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_BLOGS; vizType: WORDCLOUD]",
+      "uid" : "165439271b1f3aad",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198144429,
+        "stop" : 1611198144820,
+        "duration" : 391
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_FORUMS; vizType: GENDER]",
+      "uid" : "d584178e993e47d",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198144522,
+        "stop" : 1611198144959,
+        "duration" : 437
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_BLOGS; vizType: GEOGRAPHY]",
+      "uid" : "dbef3abf11c0d8f8",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198144597,
+        "stop" : 1611198144964,
+        "duration" : 367
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_BLOGS; vizType: TOPICWHEEL]",
+      "uid" : "ea9a6921f7bfb53a",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198144821,
+        "stop" : 1611198145247,
+        "duration" : 426
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_BLOGS; vizType: CONTENTSOURCES]",
+      "uid" : "690ac6ba6c173347",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198144836,
+        "stop" : 1611198145459,
+        "duration" : 623
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_FORUMS; vizType: BRIGHTVIEW]",
+      "uid" : "11bf37156c27bb6e",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198144961,
+        "stop" : 1611198145521,
+        "duration" : 560
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_FORUMS; vizType: VOLUME]",
+      "uid" : "2858f2ad8db8f35a",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198144966,
+        "stop" : 1611198145558,
+        "duration" : 592
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_FORUMS; vizType: AGE]",
+      "uid" : "e6e01dc5d8506bf3",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198145248,
+        "stop" : 1611198145849,
+        "duration" : 601
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_FORUMS; vizType: WORDCLOUD]",
+      "uid" : "63ae5e086a487bfd",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198145462,
+        "stop" : 1611198145901,
+        "duration" : 439
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_GOOGLEPLUS; vizType: WORDCLOUD]",
+      "uid" : "ec4c1926d69c414",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198145524,
+        "stop" : 1611198145875,
+        "duration" : 351
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_FORUMS; vizType: GEOGRAPHY]",
+      "uid" : "ee51ffd9177dfb85",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198145560,
+        "stop" : 1611198146073,
+        "duration" : 513
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_FORUMS; vizType: TOPICWHEEL]",
+      "uid" : "6c9cba8812715af9",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198145850,
+        "stop" : 1611198146380,
+        "duration" : 530
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_GOOGLEPLUS; vizType: CONTENTSOURCES]",
+      "uid" : "886b897b17c6cad2",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198145877,
+        "stop" : 1611198146453,
+        "duration" : 576
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_FORUMS; vizType: CONTENTSOURCES]",
+      "uid" : "8b49ca811d3b157c",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198145902,
+        "stop" : 1611198146401,
+        "duration" : 499
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_GOOGLEPLUS; vizType: VOLUME]",
+      "uid" : "9aa096429c13de4f",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198146076,
+        "stop" : 1611198146766,
+        "duration" : 690
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_GOOGLEPLUS; vizType: BRIGHTVIEW]",
+      "uid" : "242c5ed3edf2dcf9",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198146381,
+        "stop" : 1611198146830,
+        "duration" : 449
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_GOOGLEPLUS; vizType: TOPICWHEEL]",
+      "uid" : "134cc010e4a5d379",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198146403,
+        "stop" : 1611198146814,
+        "duration" : 411
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_TUMBLR; vizType: CONTENTSOURCES]",
+      "uid" : "a2f0546f62373ce8",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198146457,
+        "stop" : 1611198147025,
+        "duration" : 568
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_TUMBLR; vizType: VOLUME]",
+      "uid" : "a505dfefad9d7a4",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198146767,
+        "stop" : 1611198147255,
+        "duration" : 488
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_TUMBLR; vizType: WORDCLOUD]",
+      "uid" : "fade652be7988a1d",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198146815,
+        "stop" : 1611198147327,
+        "duration" : 512
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_TUMBLR; vizType: BRIGHTVIEW]",
+      "uid" : "123febcdbd37cee1",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198146830,
+        "stop" : 1611198147324,
+        "duration" : 494
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_INSTAGRAM; vizType: GEOGRAPHY]",
+      "uid" : "3b65f263aa126e52",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198147028,
+        "stop" : 1611198147505,
+        "duration" : 477
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_TUMBLR; vizType: TOPICWHEEL]",
+      "uid" : "56edb90c8c3d9f01",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198147256,
+        "stop" : 1611198147630,
+        "duration" : 374
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_INSTAGRAM; vizType: VOLUME]",
+      "uid" : "4eb070f12d4e4bb",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198147326,
+        "stop" : 1611198147696,
+        "duration" : 370
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_INSTAGRAM; vizType: GENDER]",
+      "uid" : "f2bbfa7d93791ec1",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198147328,
+        "stop" : 1611198147706,
+        "duration" : 378
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_YOUTUBE; vizType: VOLUME]",
+      "uid" : "c07550926843ea0b",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198147511,
+        "stop" : 1611198147860,
+        "duration" : 349
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_INSTAGRAM; vizType: WORDCLOUD]",
+      "uid" : "3ddc876e63ab8f43",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198147632,
+        "stop" : 1611198148259,
+        "duration" : 627
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_INSTAGRAM; vizType: BRIGHTVIEW]",
+      "uid" : "186db416b0f3e6ec",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198147697,
+        "stop" : 1611198148194,
+        "duration" : 497
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_INSTAGRAM; vizType: TOPICWHEEL]",
+      "uid" : "605ec1a97597c381",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198147708,
+        "stop" : 1611198148235,
+        "duration" : 527
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_YOUTUBE; vizType: TOPICWHEEL]",
+      "uid" : "7f39ea6ecde5d74a",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198147862,
+        "stop" : 1611198148239,
+        "duration" : 377
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_INSTAGRAM; vizType: CONTENTSOURCES]",
+      "uid" : "739214a29313868f",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198148196,
+        "stop" : 1611198148721,
+        "duration" : 525
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_YOUTUBE; vizType: WORDCLOUD]",
+      "uid" : "c2b1f0560856cc8b",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198148237,
+        "stop" : 1611198148724,
+        "duration" : 487
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_NEWS; vizType: WORDCLOUD]",
+      "uid" : "29c4feedfb0c5525",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198148241,
+        "stop" : 1611198148733,
+        "duration" : 492
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_YOUTUBE; vizType: GEOGRAPHY]",
+      "uid" : "97e390822713d5ca",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198148261,
+        "stop" : 1611198148864,
+        "duration" : 603
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_YOUTUBE; vizType: BRIGHTVIEW]",
+      "uid" : "42b80c605016d0aa",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198148723,
+        "stop" : 1611198149121,
+        "duration" : 398
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_YOUTUBE; vizType: CONTENTSOURCES]",
+      "uid" : "fa8ab85ee0f0263f",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198148726,
+        "stop" : 1611198149103,
+        "duration" : 377
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_NEWS; vizType: CONTENTSOURCES]",
+      "uid" : "170e296a72e40ed2",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198148740,
+        "stop" : 1611198149284,
+        "duration" : 544
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_NEWS; vizType: VOLUME]",
+      "uid" : "87d19c695f197ed6",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198148865,
+        "stop" : 1611198149243,
+        "duration" : 378
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_NEWS; vizType: GEOGRAPHY]",
+      "uid" : "f6ecf61286d7895e",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198149104,
+        "stop" : 1611198149629,
+        "duration" : 525
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_NEWS; vizType: BRIGHTVIEW]",
+      "uid" : "e46197358dec51b5",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198149122,
+        "stop" : 1611198149485,
+        "duration" : 363
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_NEWS; vizType: TOPICWHEEL]",
+      "uid" : "185cce6b4f810085",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198149244,
+        "stop" : 1611198149640,
+        "duration" : 396
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_REVIEWS; vizType: BRIGHTVIEW]",
+      "uid" : "7067f131baba6c46",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198149290,
+        "stop" : 1611198149708,
+        "duration" : 418
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_REVIEWS; vizType: VOLUME]",
+      "uid" : "f9824a5895395340",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198149486,
+        "stop" : 1611198149847,
+        "duration" : 361
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_REVIEWS; vizType: GENDER]",
+      "uid" : "3654b5aa97cefc21",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198149630,
+        "stop" : 1611198150041,
+        "duration" : 411
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_REVIEWS; vizType: AGE]",
+      "uid" : "14719d28d5d7bc47",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198149641,
+        "stop" : 1611198150359,
+        "duration" : 718
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_VKKEYWORD; vizType: GENDER]",
+      "uid" : "9a98eb30badbf983",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198149711,
+        "stop" : 1611198150425,
+        "duration" : 714
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_REVIEWS; vizType: WORDCLOUD]",
+      "uid" : "cf3c46f7ad713728",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198149848,
+        "stop" : 1611198150375,
+        "duration" : 527
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_REVIEWS; vizType: TOPICWHEEL]",
+      "uid" : "718a1c9f5efa147c",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198150043,
+        "stop" : 1611198150710,
+        "duration" : 667
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_REVIEWS; vizType: CONTENTSOURCES]",
+      "uid" : "12abc70b5ecbbac0",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198150360,
+        "stop" : 1611198150947,
+        "duration" : 587
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_VKKEYWORD; vizType: VOLUME]",
+      "uid" : "beeaa787116fa60e",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198150382,
+        "stop" : 1611198150946,
+        "duration" : 564
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_VKKEYWORD; vizType: CONTENTSOURCES]",
+      "uid" : "101b41d424891be4",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198150428,
+        "stop" : 1611198150990,
+        "duration" : 562
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_VKKEYWORD; vizType: WORDCLOUD]",
+      "uid" : "104dd4939fff58ad",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198150712,
+        "stop" : 1611198151067,
+        "duration" : 355
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_VKKEYWORD; vizType: BRIGHTVIEW]",
+      "uid" : "1544d841b4d0f6f3",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198150948,
+        "stop" : 1611198151392,
+        "duration" : 444
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_VKKEYWORD; vizType: GEOGRAPHY]",
+      "uid" : "5baf94f727f61e09",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198150948,
+        "stop" : 1611198151393,
+        "duration" : 445
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_WEIBO; vizType: GEOGRAPHY]",
+      "uid" : "8148d5e0b4b8163d",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198150993,
+        "stop" : 1611198151396,
+        "duration" : 403
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_VKKEYWORD; vizType: TOPICWHEEL]",
+      "uid" : "c3698a68a1642ab8",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198151068,
+        "stop" : 1611198151674,
+        "duration" : 606
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_WEIBO; vizType: VOLUME]",
+      "uid" : "180fa290ed469646",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198151395,
+        "stop" : 1611198151724,
+        "duration" : 329
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_WEIBO; vizType: GENDER]",
+      "uid" : "ef28346d24888034",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198151395,
+        "stop" : 1611198151899,
+        "duration" : 504
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_COMMENTS; vizType: VOLUME]",
+      "uid" : "cf63d1af2394800f",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198151402,
+        "stop" : 1611198151898,
+        "duration" : 496
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_WEIBO; vizType: WORDCLOUD]",
+      "uid" : "9cbbf88f38b52ddc",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198151675,
+        "stop" : 1611198152074,
+        "duration" : 399
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_WEIBO; vizType: BRIGHTVIEW]",
+      "uid" : "c541da39c3f55be8",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198151725,
+        "stop" : 1611198152111,
+        "duration" : 386
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_WEIBO; vizType: TOPICWHEEL]",
+      "uid" : "281ae15e5e872967",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198151900,
+        "stop" : 1611198152327,
+        "duration" : 427
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_COMMENTS; vizType: BRIGHTVIEW]",
+      "uid" : "9e34058c97ff1825",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198151900,
+        "stop" : 1611198152332,
+        "duration" : 432
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_WEIBO; vizType: CONTENTSOURCES]",
+      "uid" : "d21c139693270026",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198152076,
+        "stop" : 1611198152395,
+        "duration" : 319
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_COMMENTS; vizType: WORDCLOUD]",
+      "uid" : "900730531629664e",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198152112,
+        "stop" : 1611198152710,
+        "duration" : 598
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_COMMENTS; vizType: GEOGRAPHY]",
+      "uid" : "845e959ee1b8dcae",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198152328,
+        "stop" : 1611198152706,
+        "duration" : 378
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_SOCIAL_FACEBOOK_WITHOUT_DATA; vizType: WORDCLOUD]",
+      "uid" : "e6fd8840825d943f",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198152337,
+        "stop" : 1611198152890,
+        "duration" : 553
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_COMMENTS; vizType: TOPICWHEEL]",
+      "uid" : "ce4143d24d56018d",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198152396,
+        "stop" : 1611198152775,
+        "duration" : 379
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_OPINION_COMMENTS; vizType: CONTENTSOURCES]",
+      "uid" : "ea1ae07e400333d7",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198152709,
+        "stop" : 1611198153031,
+        "duration" : 322
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_SOCIAL_FACEBOOK_WITHOUT_DATA; vizType: SENTIMENT]",
+      "uid" : "8a789014198e649b",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198152711,
+        "stop" : 1611198153042,
+        "duration" : 331
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_SOCIAL_FACEBOOK_WITHOUT_DATA; vizType: EMOTION]",
+      "uid" : "c2ff47d5f42520fc",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198152776,
+        "stop" : 1611198153284,
+        "duration" : 508
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_SOCIAL_FACEBOOK_WITHOUT_DATA; vizType: TOPICWHEEL]",
+      "uid" : "8499d3973c491859",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198152892,
+        "stop" : 1611198153233,
+        "duration" : 341
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_SOCIAL_FACEBOOK_WITHOUT_DATA; vizType: GENDER]",
+      "uid" : "e63d98e0ed8742c1",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198153032,
+        "stop" : 1611198153450,
+        "duration" : 418
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_SOCIAL_FACEBOOK_WITHOUT_DATA; vizType: GEOGRAPHY]",
+      "uid" : "7dde3de09a029e9d",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198153043,
+        "stop" : 1611198153469,
+        "duration" : 426
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_SOCIAL_TWITTER_WITHOUT_DATA; vizType: POTENTIALIMPRESSIONS]",
+      "uid" : "3f4b45cf684e387d",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198153236,
+        "stop" : 1611198153772,
+        "duration" : 536
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_SOCIAL_FACEBOOK_WITHOUT_DATA; vizType: FBTOTALACTIVITY]",
+      "uid" : "bcd147ed1e3913c2",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198153285,
+        "stop" : 1611198153760,
+        "duration" : 475
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_SOCIAL_FACEBOOK_WITHOUT_DATA; vizType: FBLIKES]",
+      "uid" : "9338d9ef157f856e",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198153452,
+        "stop" : 1611198153852,
+        "duration" : 400
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_SOCIAL_TWITTER_WITHOUT_DATA; vizType: SENTIMENT]",
+      "uid" : "cf1f25f5900307bd",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198153470,
+        "stop" : 1611198154091,
+        "duration" : 621
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_SOCIAL_TWITTER_WITHOUT_DATA; vizType: EMOTION]",
+      "uid" : "f35b52a18b50ef7",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198153761,
+        "stop" : 1611198154246,
+        "duration" : 485
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_SOCIAL_TWITTER_WITHOUT_DATA; vizType: GEOGRAPHY]",
+      "uid" : "66eeb69fee032aff",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198153773,
+        "stop" : 1611198154376,
+        "duration" : 603
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_SOCIAL_TWITTER_WITHOUT_DATA; vizType: TOTALENGAGEMENT]",
+      "uid" : "f408217fabda638e",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198153854,
+        "stop" : 1611198154377,
+        "duration" : 523
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_SOCIAL_TWITTER_WITHOUT_DATA; vizType: FOLLOWERS]",
+      "uid" : "3d72014248e706bc",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198154092,
+        "stop" : 1611198154586,
+        "duration" : 494
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_SOCIAL_TWITTER_WITHOUT_DATA; vizType: WORDCLOUD]",
+      "uid" : "e27088a823e4a707",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198154247,
+        "stop" : 1611198154818,
+        "duration" : 571
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_SOCIAL_TWITTER_WITHOUT_DATA; vizType: TOPICWHEEL]",
+      "uid" : "3cb59135145efda3",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198154378,
+        "stop" : 1611198154824,
+        "duration" : 446
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_SOCIAL_TWITTER_WITHOUT_DATA; vizType: GENDER]",
+      "uid" : "bb2f7d617f5151bf",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198154378,
+        "stop" : 1611198154751,
+        "duration" : 373
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_SOCIAL_TWITTER_WITHOUT_DATA; vizType: INFLUENCERS]",
+      "uid" : "29b7ec350f3f68f2",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198154588,
+        "stop" : 1611198154945,
+        "duration" : 357
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_SOCIAL_TWITTER_WITHOUT_DATA; vizType: PROLIFIC]",
+      "uid" : "43e0e54f5755476f",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198154753,
+        "stop" : 1611198155101,
+        "duration" : 348
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_SOCIAL_TWITTER_WITHOUT_DATA; vizType: AUTHORSANDPOSTS]",
+      "uid" : "d689264508aa6036",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198154819,
+        "stop" : 1611198155298,
+        "duration" : 479
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_SOCIAL_INSTAGRAM_WITHOUT_DATA; vizType: WORDCLOUD]",
+      "uid" : "d50a49b0f73e097f",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198154826,
+        "stop" : 1611198155206,
+        "duration" : 380
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_SOCIAL_TWITTER_WITHOUT_DATA; vizType: AGE]",
+      "uid" : "77bee0dc8c0c103c",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198154946,
+        "stop" : 1611198155464,
+        "duration" : 518
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_SOCIAL_INSTAGRAM_WITHOUT_DATA; vizType: SENTIMENT]",
+      "uid" : "f304fdb42120fb48",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198155102,
+        "stop" : 1611198155674,
+        "duration" : 572
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_SOCIAL_INSTAGRAM_WITHOUT_DATA; vizType: TOPICWHEEL]",
+      "uid" : "fca53d9c8267c433",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198155208,
+        "stop" : 1611198155616,
+        "duration" : 408
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_SOCIAL_INSTAGRAM_WITHOUT_DATA; vizType: EMOTION]",
+      "uid" : "51cce72d58489c12",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198155300,
+        "stop" : 1611198155667,
+        "duration" : 367
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_SOCIAL_INSTAGRAM_WITHOUT_DATA; vizType: FOLLOWERS]",
+      "uid" : "9f4fc3f735ee5e4d",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198155465,
+        "stop" : 1611198155842,
+        "duration" : 377
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_SOCIAL_INSTAGRAM_WITHOUT_DATA; vizType: GENDER]",
+      "uid" : "fa2f251ac1e50149",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198155619,
+        "stop" : 1611198155944,
+        "duration" : 325
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test[monitor: DASHBOARDS_SOCIAL_INSTAGRAM_WITHOUT_DATA; vizType: INSTAGRAMTOTALACTIVITY]",
+      "uid" : "b520bff18c838f73",
+      "parentUid" : "33e705506c35618ae3ffce75a03c6c60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198155668,
+        "stop" : 1611198156048,
+        "duration" : 380
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "33e705506c35618ae3ffce75a03c6c60"
+  }, {
+    "name" : "test.java.com.ch.internalapitests.reporting.report.PositiveReportTests",
+    "children" : [ {
+      "name" : "testGetReportWithoutVisualization",
+      "uid" : "d0054e226c7383b4",
+      "parentUid" : "34836fad74898e7741b6da39794f6540",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198102127,
+        "stop" : 1611198102601,
+        "duration" : 474
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testCreateReport",
+      "uid" : "68d600dcc69e9269",
+      "parentUid" : "34836fad74898e7741b6da39794f6540",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198102603,
+        "stop" : 1611198102829,
+        "duration" : 226
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "34836fad74898e7741b6da39794f6540"
+  }, {
+    "name" : "test.java.com.ch.internalapitests.reporting.reportlist.CopyReportTests",
+    "children" : [ {
+      "name" : "testCopyReportWithOneVisualization",
+      "uid" : "6eed3885be488227",
+      "parentUid" : "2d3999f10745e6c5f394cdda1859f4e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198103273,
+        "stop" : 1611198105453,
+        "duration" : 2180
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testCopyReportWithMaxVisualizations",
+      "uid" : "3f94b7fcc3f506a3",
+      "parentUid" : "2d3999f10745e6c5f394cdda1859f4e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198105455,
+        "stop" : 1611198114736,
+        "duration" : 9281
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testCopyReportNoVisualization",
+      "uid" : "8e22fab743817c46",
+      "parentUid" : "2d3999f10745e6c5f394cdda1859f4e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198112187,
+        "stop" : 1611198113902,
+        "duration" : 1715
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "2d3999f10745e6c5f394cdda1859f4e8"
+  }, {
+    "name" : "test.java.com.ch.internalapitests.reporting.reportlist.ReportListTests",
+    "children" : [ {
+      "name" : "testGetReportListUserLoggedIn",
+      "uid" : "56f3e21f7ee10b80",
+      "parentUid" : "628312c1104bfc978811b02abe159d79",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198110889,
+        "stop" : 1611198114464,
+        "duration" : 3575
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "628312c1104bfc978811b02abe159d79"
+  }, {
+    "name" : "test.java.com.ch.internalapitests.reporting.schedule.ScheduleReportTests",
+    "children" : [ {
+      "name" : "testCreateNewScheduleInvalidReportId",
+      "uid" : "4ae9a151a5c33d41",
+      "parentUid" : "8c6f5bc10584179d015390adaf5fd01c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198113910,
+        "stop" : 1611198114741,
+        "duration" : 831
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testCreateScheduleInvalidStartDate",
+      "uid" : "3d97c946c380338b",
+      "parentUid" : "8c6f5bc10584179d015390adaf5fd01c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198114480,
+        "stop" : 1611198115332,
+        "duration" : 852
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testCreateWeeklyScheduleNoDay",
+      "uid" : "e1982899d853594d",
+      "parentUid" : "8c6f5bc10584179d015390adaf5fd01c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198114743,
+        "stop" : 1611198115086,
+        "duration" : 343
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testCreateNewSchedule",
+      "uid" : "52b8fbd66e6b21d0",
+      "parentUid" : "8c6f5bc10584179d015390adaf5fd01c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198114743,
+        "stop" : 1611198115108,
+        "duration" : 365
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testCancelSchedule",
+      "uid" : "a2d1aac1bd1d8634",
+      "parentUid" : "8c6f5bc10584179d015390adaf5fd01c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198115088,
+        "stop" : 1611198115901,
+        "duration" : 813
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testCreateScheduleInvalidExportTypeParameter",
+      "uid" : "c97832cf4fb41c81",
+      "parentUid" : "8c6f5bc10584179d015390adaf5fd01c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198115110,
+        "stop" : 1611198115444,
+        "duration" : 334
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "8c6f5bc10584179d015390adaf5fd01c"
+  }, {
+    "name" : "test.java.com.ch.internalapitests.reporting.snapshot.DeleteSnapshotTests",
+    "children" : [ {
+      "name" : "testDeleteSnapshot",
+      "uid" : "c21f4776ebe9cb8e",
+      "parentUid" : "9ea95fbdf6398f07a008e3a5727f67a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198115340,
+        "stop" : 1611198116430,
+        "duration" : 1090
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testDeleteSnapshotInvalidId",
+      "uid" : "8afab353ee8ba2d3",
+      "parentUid" : "9ea95fbdf6398f07a008e3a5727f67a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198115908,
+        "stop" : 1611198116119,
+        "duration" : 211
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9ea95fbdf6398f07a008e3a5727f67a1"
+  }, {
+    "name" : "test.java.com.ch.internalapitests.reporting.snapshot.PositiveSnapshotTests",
+    "children" : [ {
+      "name" : "testSnapshotCreation",
+      "uid" : "2706cc155796b24d",
+      "parentUid" : "68429fda219f97680b6067aa45bc4b64",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198115479,
+        "stop" : 1611198117812,
+        "duration" : 2333
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "68429fda219f97680b6067aa45bc4b64"
+  }, {
+    "name" : "test.java.com.ch.internalapitests.reporting.snapshot.SnapshotListTests",
+    "children" : [ {
+      "name" : "testGetSnapshotListInvalidReportId",
+      "uid" : "42c4e7f58ed78c40",
+      "parentUid" : "28cf6b373059af6663b895cbb486c912",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198116125,
+        "stop" : 1611198116318,
+        "duration" : 193
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testGetSnapshotsListValidReportId",
+      "uid" : "23babb53f027e81d",
+      "parentUid" : "28cf6b373059af6663b895cbb486c912",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198116320,
+        "stop" : 1611198120947,
+        "duration" : 4627
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "28cf6b373059af6663b895cbb486c912"
+  }, {
+    "name" : "test.java.com.ch.internalapitests.reporting.visualization.PositiveVisualizationTests",
+    "children" : [ {
+      "name" : "testEditVisualization",
+      "uid" : "2180f7e40914c287",
+      "parentUid" : "a0619744167b41e7e3903712a64d8f79",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198116450,
+        "stop" : 1611198117559,
+        "duration" : 1109
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testAddVisualization",
+      "uid" : "da664cabf35a0b9f",
+      "parentUid" : "a0619744167b41e7e3903712a64d8f79",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198117566,
+        "stop" : 1611198118638,
+        "duration" : 1072
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testDeleteVisualization",
+      "uid" : "f7f5f021c6262560",
+      "parentUid" : "a0619744167b41e7e3903712a64d8f79",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198118644,
+        "stop" : 1611198119310,
+        "duration" : 666
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testGetVisualization",
+      "uid" : "8554a25c7da8139a",
+      "parentUid" : "a0619744167b41e7e3903712a64d8f79",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198119311,
+        "stop" : 1611198124774,
+        "duration" : 5463
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a0619744167b41e7e3903712a64d8f79"
+  } ],
+  "name" : "suites"
+}

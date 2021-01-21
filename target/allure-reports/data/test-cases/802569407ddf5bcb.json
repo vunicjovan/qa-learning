@@ -1,0 +1,119 @@
+{
+  "uid" : "802569407ddf5bcb",
+  "name" : "test[monitor: DASHBOARDS_BUZZ_WEIBO; vizType: GENDER]",
+  "fullName" : "test.java.com.ch.internalapitests.reporting.visualization.createvisualization.ReportsVisualizationTests.testAvailableVisualizationTypes",
+  "historyId" : "898864304d7a37caf7d1bb7de7afa7d5",
+  "time" : {
+    "start" : 1611198129475,
+    "stop" : 1611198129790,
+    "duration" : 315
+  },
+  "description" : "",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "ip-172-31-54-155"
+  }, {
+    "name" : "thread",
+    "value" : "29184@ip-172-31-54-155.ForkJoinPool-1-worker-3(15)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "test.java.com.ch.internalapitests.reporting.visualization.createvisualization.ReportsVisualizationTests"
+  }, {
+    "name" : "testClass",
+    "value" : "test.java.com.ch.internalapitests.reporting.visualization.createvisualization.ReportsVisualizationTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testAvailableVisualizationTypes"
+  }, {
+    "name" : "suite",
+    "value" : "test.java.com.ch.internalapitests.reporting.visualization.createvisualization.ReportsVisualizationTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 534,
+        "unknown" : 0,
+        "total" : 535
+      },
+      "items" : [ {
+        "uid" : "44d639cd17a77bcb",
+        "reportUrl" : "https://54.82.179.101:8888/job/Reporting-APIvsDB-QA/1316/allure/#testresult/44d639cd17a77bcb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611111729659,
+          "stop" : 1611111730431,
+          "duration" : 772
+        }
+      }, {
+        "uid" : "99d9bd67b38c180d",
+        "reportUrl" : "https://54.82.179.101:8888/job/Reporting-APIvsDB-QA/1315/allure/#testresult/99d9bd67b38c180d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1611025329008,
+          "stop" : 1611025329477,
+          "duration" : 469
+        }
+      }, {
+        "uid" : "3959acfdb3451a4a",
+        "reportUrl" : "https://54.82.179.101:8888/job/Reporting-APIvsDB-QA/1314/allure/#testresult/3959acfdb3451a4a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610938929012,
+          "stop" : 1610938929498,
+          "duration" : 486
+        }
+      }, {
+        "uid" : "426060cc92b72353",
+        "reportUrl" : "https://54.82.179.101:8888/job/Reporting-APIvsDB-QA/1313/allure/#testresult/426060cc92b72353",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610852534740,
+          "stop" : 1610852535348,
+          "duration" : 608
+        }
+      }, {
+        "uid" : "fff2721af1d3d3e0",
+        "reportUrl" : "https://54.82.179.101:8888/job/Reporting-APIvsDB-QA/1312/allure/#testresult/fff2721af1d3d3e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1610766135558,
+          "stop" : 1610766136101,
+          "duration" : 543
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "802569407ddf5bcb.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}
