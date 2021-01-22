@@ -9,13 +9,8 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Get some code from a GitHub repository
-                //checkout scm
-                //git branch: 'main',
-                //    url: 'https://github.com/vunicjovan/qa-learning.git'
-                checkout scm: [$class: 'GitSCM',
-                    userRemoteConfigs: [[url: 'https://github.com/vunicjovan/qa-learning.git']],
-                        branches: [[name:'scm-test-branch']]],
-                    poll:false 
+                git branch: 'main',
+                    url: 'https://github.com/vunicjovan/qa-learning.git'
             }
         }
         stage('Build & Test') {
