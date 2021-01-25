@@ -41,7 +41,7 @@ public class BaseTest {
      */
     @BeforeAll
     public static void setUp() {
-        setUpTheDriver(DriverManagerType.valueOf("CHROME"));
+        setUpTheDriver(DriverManagerType.valueOf("OPERA"));
     }
 
     /**
