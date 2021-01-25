@@ -34,6 +34,7 @@ pipeline {
     post {
         success {
           echo 'Pipeline has finished successfully.'
+          build 'SimpleCopyPipeline'
         }
     }
 }
