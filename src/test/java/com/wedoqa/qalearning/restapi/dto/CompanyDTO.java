@@ -6,6 +6,10 @@ public class CompanyDTO {
     private String catchPhrase;
     private String bs;
 
+    public CompanyDTO() {
+        super();
+    }
+
     public CompanyDTO(String name, String catchPhrase, String bs) {
         this.name = name;
         this.catchPhrase = catchPhrase;
@@ -16,23 +20,26 @@ public class CompanyDTO {
         return name;
     }
 
-    public void setName(String name) {
+    public CompanyDTO setName(String name) {
         this.name = name;
+        return this;
     }
 
     public String getCatchPhrase() {
         return catchPhrase;
     }
 
-    public void setCatchPhrase(String catchPhrase) {
+    public CompanyDTO setCatchPhrase(String catchPhrase) {
         this.catchPhrase = catchPhrase;
+        return this;
     }
 
     public String getBs() {
         return bs;
     }
 
-    public void setBs(String bs) {
+    public CompanyDTO setBs(String bs) {
         this.bs = bs;
+        return this;
     }
 }

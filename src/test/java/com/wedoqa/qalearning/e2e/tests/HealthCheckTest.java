@@ -10,7 +10,6 @@ public class HealthCheckTest extends BaseTest {
 
     @Test
     public void testCheckHealth() {
-        System.out.println(driver);
         goToUrl("/");
         LoginPage loginPage = new LoginPage(driver);
 

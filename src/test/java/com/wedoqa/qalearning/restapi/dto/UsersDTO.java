@@ -19,7 +19,8 @@ public class UsersDTO {
         return users;
     }
 
-    public void setUsers(List<UserDTO> users) {
+    public UsersDTO setUsers(List<UserDTO> users) {
         this.users = users;
+        return this;
     }
 }

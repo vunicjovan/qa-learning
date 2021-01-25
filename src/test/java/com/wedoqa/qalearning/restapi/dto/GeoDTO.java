@@ -5,6 +5,10 @@ public class GeoDTO {
     private String lat;
     private String lng;
 
+    public GeoDTO() {
+        super();
+    }
+
     public GeoDTO(String lat, String lng) {
         this.lat = lat;
         this.lng = lng;
@@ -14,15 +18,17 @@ public class GeoDTO {
         return lat;
     }
 
-    public void setLat(String lat) {
+    public GeoDTO setLat(String lat) {
         this.lat = lat;
+        return this;
     }
 
     public String getLng() {
         return lng;
     }
 
-    public void setLng(String lng) {
+    public GeoDTO setLng(String lng) {
         this.lng = lng;
+        return this;
     }
 }
