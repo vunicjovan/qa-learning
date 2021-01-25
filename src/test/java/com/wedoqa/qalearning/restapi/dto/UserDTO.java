@@ -29,64 +29,72 @@ public class UserDTO {
         return id;
     }
 
-    public void setId(Long id) {
+    public UserDTO setId(Long id) {
         this.id = id;
+        return this;
     }
 
     public String getName() {
         return name;
     }
 
-    public void setName(String name) {
+    public UserDTO setName(String name) {
         this.name = name;
+        return this;
     }
 
     public String getUsername() {
         return username;
     }
 
-    public void setUsername(String username) {
+    public UserDTO setUsername(String username) {
         this.username = username;
+        return this;
     }
 
     public String getEmail() {
         return email;
     }
 
-    public void setEmail(String email) {
+    public UserDTO setEmail(String email) {
         this.email = email;
+        return this;
     }
 
     public AddressDTO getAddress() {
         return address;
     }
 
-    public void setAddress(AddressDTO address) {
+    public UserDTO setAddress(AddressDTO address) {
         this.address = address;
+        return this;
     }
 
     public String getPhone() {
         return phone;
     }
 
-    public void setPhone(String phone) {
+    public UserDTO setPhone(String phone) {
         this.phone = phone;
+        return this;
     }
 
     public String getWebsite() {
         return website;
     }
 
-    public void setWebsite(String website) {
+    public UserDTO setWebsite(String website) {
         this.website = website;
+        return this;
     }
 
     public CompanyDTO getCompany() {
         return company;
     }
 
-    public void setCompany(CompanyDTO company) {
+    public UserDTO setCompany(CompanyDTO company) {
         this.company = company;
+        return this;
     }
 
     @Override
