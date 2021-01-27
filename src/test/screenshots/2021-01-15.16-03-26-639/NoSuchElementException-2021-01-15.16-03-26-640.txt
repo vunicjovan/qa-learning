@@ -22,7 +22,7 @@ Session ID: b8c70f46422fe4c95e401008d6bd818a
 	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 	at com.wedoqa.qalearning.e2e.pages.InventoryPage.areCartCounterBadgeAndRemoveButtonDisplayed(InventoryPage.java:59)
-	at com.wedoqa.qalearning.e2e.tests.AddToCartTest.testAddToCart(AddToCartTest.java:23)
+	at com.wedoqa.qalearning.e2e.tests.AddToCart.testAddToCart(AddToCartTest.java:23)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

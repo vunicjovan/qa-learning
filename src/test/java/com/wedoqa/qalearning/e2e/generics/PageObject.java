@@ -9,6 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.opera.OperaDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.PageFactory;
 
 import java.io.File;
@@ -22,7 +23,7 @@ import java.util.stream.Stream;
 public class PageObject {
 
     private static final String SCREENSHOT_PATH = "./src/test/screenshots/";
-    private static DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd.HH-mm-ss-SSS");
+    private static final DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd.HH-mm-ss-SSS");
     protected WebDriver driver;
 
     /**

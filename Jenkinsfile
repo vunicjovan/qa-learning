@@ -1,6 +1,7 @@
 pipeline {
-    agent any
-
+    agent {
+        label 'docker-compose'
+    }
     tools {
         // Install the Maven version configured as "M3" and add it to the path.
         maven 'Maven3'
@@ -8,25 +9,35 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                // Get some code from a GitHub repository
-                git branch: 'main',
+                git branch: 'selenium-grid-configuration',
                     url: 'https://github.com/vunicjovan/qa-learning.git'
             }
         }
-        stage('Build & Test') {
+        stage('Build') {
             steps {
-                // To run Maven on a Windows agent, use
-                bat 'mvn clean install > log-file.log'
+                bat 'mvn clean install -DskipTests > build-log-file.log'
             }
         }
-        stage('Archive artifacts and publish results') {
-            steps {
-                archiveArtifacts artifacts: 'log-file.log'
-                archiveArtifacts artifacts: '**/screenshots/**'
-            }
-            post {
-                always {
-                    junit 'target/surefire-reports/*.xml'
+        stage('Test') {
+            parallel {
+                stage('Run Docker file') {
+                    steps {
+                        bat 'docker-compose up --scale chrome=5'
+                    }
+                }
+                stage('Build') {
+                    steps {
+                        bat 'mvn clean test > test-log-file.log'
+                    }
+                    post {
+                        always {
+                            archiveArtifacts artifacts: 'build-log-file.log'
+                            archiveArtifacts artifacts: 'test-log-file.log'
+                            archiveArtifacts artifacts: '**/screenshots/**'
+                            junit 'target/surefire-reports/*.xml'
+                            bat 'docker-compose down'
+                        }
+                    }
                 }
             }
         }
@@ -34,7 +45,6 @@ pipeline {
     post {
         success {
           echo 'Pipeline has finished successfully.'
-          build 'SimpleCopyPipeline'
         }
     }
 }

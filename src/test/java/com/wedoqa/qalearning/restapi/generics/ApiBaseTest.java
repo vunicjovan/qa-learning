@@ -1,5 +1,7 @@
 package com.wedoqa.qalearning.restapi.generics;
 
+import com.wedoqa.qalearning.restapi.enums.MethodType;
+import com.wedoqa.qalearning.restapi.enums.SchemaType;
 import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.filter.log.RequestLoggingFilter;
@@ -11,6 +13,7 @@ import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
 
 import javax.ws.rs.HttpMethod;
 import java.net.http.HttpRequest;
@@ -21,7 +24,7 @@ import java.util.Locale;
 import static io.restassured.RestAssured.given;
 import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
 
-public class ApiTest {
+public class ApiBaseTest {
 
     protected final static String USER_URL = "https://jsonplaceholder.typicode.com";
     protected static List<String> USERNAME_LIST = new ArrayList<>();
@@ -56,49 +59,47 @@ public class ApiTest {
                         then().contentType(ContentType.JSON).extract().response();
     }
 
-    public <T> T executeMethod(String method, int statusCode, String path, Object payload, Class<T> responseClass,
-                               RequestSpecification specification, String schema, ContentType contentType) {
+    public <T> T executeMethod(MethodType method, int statusCode, String path, Object payload, Class<T> responseClass,
+                               RequestSpecification specification, SchemaType schema, ContentType contentType) {
         ValidatableResponse response = prepareRequestConfig(method, path, payload, specification);
         assert response != null;
         response = assertStatusCodeAndContentType(response, statusCode, contentType);
-        if (schema != null && !schema.trim().equals("")) response.assertThat().body(matchesJsonSchemaInClasspath(schema));
+        if (!schema.equals(SchemaType.UNDEFINED_SCHEMA)) response.assertThat().body(matchesJsonSchemaInClasspath(schema.getPath()));
 
         return extractResource(response, responseClass);
     }
 
-    private ValidatableResponse prepareRequestConfig(String method, String path, Object payload, RequestSpecification specification) {
-        method = method.toLowerCase().trim();
+    private ValidatableResponse prepareRequestConfig(MethodType method, String path, Object payload, RequestSpecification specification) {
         switch (method) {
-            case "post":
+            case POST:
                 return given()
                         .spec(specification)
                         .body(payload)
                         .when()
                         .post(path)
                         .then();
-            case "put":
+            case PUT:
                 return given()
                         .spec(specification)
                         .body(payload)
                         .when()
                         .put(path)
                         .then();
-            case "get":
+            case GET:
                 return given()
                         .spec(specification)
                         .when()
                         .get(path)
                         .then();
-            case "delete":
+            case DELETE:
                 return given()
                         .spec(specification)
                         .when()
                         .delete(path)
                         .then();
-            case "patch":
+            case PATCH:
                 return given()
                         .spec(specification)
-                        .and()
                         .body(payload)
                         .when()
                         .patch(path)

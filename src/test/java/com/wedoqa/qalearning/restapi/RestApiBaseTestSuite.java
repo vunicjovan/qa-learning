@@ -6,5 +6,5 @@ import org.junit.runner.RunWith;
 
 @RunWith(JUnitPlatform.class)
 @SelectPackages("com.wedoqa.qalearning.restapi")
-public class RestApiTestSuite {
+public class RestApiBaseTestSuite {
 }

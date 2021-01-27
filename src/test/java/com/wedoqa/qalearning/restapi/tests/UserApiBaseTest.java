@@ -4,44 +4,51 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.wedoqa.qalearning.restapi.dto.UserDTO;
 import com.wedoqa.qalearning.restapi.dto.UsersDTO;
-import com.wedoqa.qalearning.restapi.generics.ApiTest;
+import com.wedoqa.qalearning.restapi.enums.MethodType;
+import com.wedoqa.qalearning.restapi.enums.SchemaType;
+import com.wedoqa.qalearning.restapi.generics.ApiBaseTest;
 import com.wedoqa.qalearning.restapi.utils.RequestObjectUtils;
+import com.wedoqa.qalearning.restapi.utils.UserAssertionProvider;
 import io.restassured.http.ContentType;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.parallel.Execution;
+import org.junit.jupiter.api.parallel.ExecutionMode;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 
 import java.util.List;
 
-import static io.restassured.RestAssured.given;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.hasSize;
 import static org.junit.jupiter.api.Assertions.assertNull;
 
-public class UserApiTest extends ApiTest {
+@Execution(ExecutionMode.SAME_THREAD)
+public class UserApiBaseTest extends ApiBaseTest {
 
     private final RequestObjectUtils requestObjectUtils = new RequestObjectUtils();
     private final ObjectMapper mapper = new ObjectMapper();
+    private final UserAssertionProvider assertionProvider = new UserAssertionProvider();
 
     @ParameterizedTest(name = "ID: {0}")
     @ValueSource(ints = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10})
     public void testUserMatchingWithGivenUserId(int id) {
         UserDTO userDTO = executeMethod(
-                "get",
+                MethodType.GET,
                 200,
                 "users/{id}",
                 null,
                 UserDTO.class,
                 requestSpecification.pathParam("id", id),
-                "schemas/user-schema.json",
+                SchemaType.USER_SCHEMA,
                 ContentType.JSON
         );
 
+        // make sure that given user actually has corresponding username
         assertThat(userDTO.getUsername(), equalTo(USERNAME_LIST.get(id - 1)));
     }
 
@@ -51,20 +58,18 @@ public class UserApiTest extends ApiTest {
         UserDTO userDTO = requestObjectUtils.postRequestUser();
 
         UserDTO createdUserDTO = executeMethod(
-                "post",
+                MethodType.POST,
                 201,
                 "/users",
                 userDTO,
                 UserDTO.class,
                 requestSpecification,
-                "schemas/user-schema.json",
+                SchemaType.USER_SCHEMA,
                 ContentType.JSON
         );
 
-        assertThat(createdUserDTO)
-                .usingRecursiveComparison()
-                .ignoringFields("id")
-                .isEqualTo(userDTO);
+        // make sure that created user has corresponding field values
+        assertionProvider.assertObjectsAreEqualExcludingNullables(createdUserDTO, userDTO);
     }
 
     @Test
@@ -73,21 +78,18 @@ public class UserApiTest extends ApiTest {
         UserDTO userDTO = requestObjectUtils.updateRequestUser();
 
         UserDTO updatedUserDTO = executeMethod(
-                "put",
+                MethodType.PUT,
                 200,
                 "/users/1",
                 userDTO,
                 UserDTO.class,
                 requestSpecification,
-                null,
+                SchemaType.UNDEFINED_SCHEMA,
                 ContentType.JSON
         );
 
-        // make sure user is updated
-        assertThat(updatedUserDTO)
-                .usingRecursiveComparison()
-                .ignoringFields("id")
-                .isEqualTo(userDTO);
+        // make sure that user is updated
+        assertionProvider.assertObjectsAreEqualExcludingNullables(updatedUserDTO, userDTO);
     }
 
     @Test
@@ -97,16 +99,17 @@ public class UserApiTest extends ApiTest {
         patchUser.put("username", "James");
 
         UserDTO userDTO = executeMethod(
-                "patch",
+                MethodType.PATCH,
                 200,
                 "/users/1",
                 patchUser.toString(),
                 UserDTO.class,
                 requestSpecification,
-                "schemas/user-schema.json",
+                SchemaType.USER_SCHEMA,
                 ContentType.JSON
         );
 
+        // make sure that PATCH operation has succeeded
         assertThat(userDTO.getUsername(), equalTo("James"));
     }
 
@@ -114,16 +117,17 @@ public class UserApiTest extends ApiTest {
     @DisplayName("Check if deletion of user with provided ID was successful")
     public void testDeleteExistingUser() {
         UserDTO userDTO = executeMethod(
-                "delete",
+                MethodType.DELETE,
                 200,
                 "/users/{id}",
                 null,
                 UserDTO.class,
                 requestSpecification.pathParam("id", 1),
-                null,
+                SchemaType.UNDEFINED_SCHEMA,
                 ContentType.JSON
         );
 
+        // make sure that user with given ID does not exist anymore
         assertNull(userDTO.getId());
     }
 
@@ -132,13 +136,13 @@ public class UserApiTest extends ApiTest {
     public void testUsersDtoObjectParsing() {
         List<UserDTO> users = mapper.convertValue(
                 executeMethod(
-                        "get",
+                        MethodType.GET,
                         200,
                         "/users",
                         null,
                         List.class,
                         requestSpecification,
-                        "schemas/users-schema.json",
+                        SchemaType.USERS_SCHEMA,
                         ContentType.JSON
                 ),
                 new TypeReference<>() {}
@@ -146,6 +150,7 @@ public class UserApiTest extends ApiTest {
 
         UsersDTO usersDTO = new UsersDTO(users);
 
+        // check size of returned data and pretty-print it
         assertThat(usersDTO.getUsers(), hasSize(10));
         usersDTO.getUsers().forEach(System.out::println);
     }

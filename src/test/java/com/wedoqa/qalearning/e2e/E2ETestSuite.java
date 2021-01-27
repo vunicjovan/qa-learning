@@ -1,17 +1,17 @@
 package com.wedoqa.qalearning.e2e;
 
-import com.wedoqa.qalearning.e2e.tests.AddToCartTest;
-import com.wedoqa.qalearning.e2e.tests.HealthCheckTest;
-import com.wedoqa.qalearning.e2e.tests.LoginTest;
+import com.wedoqa.qalearning.e2e.tests.AddToCart;
+import com.wedoqa.qalearning.e2e.tests.HealthCheck;
+import com.wedoqa.qalearning.e2e.tests.Login;
 import org.junit.platform.runner.JUnitPlatform;
 import org.junit.platform.suite.api.SelectClasses;
 import org.junit.runner.RunWith;
 
 @RunWith(JUnitPlatform.class)
 @SelectClasses({
-        HealthCheckTest.class,
-        LoginTest.class,
-        AddToCartTest.class
+        HealthCheck.class,
+        Login.class,
+        AddToCart.class
 })
 public class E2ETestSuite {
 }
